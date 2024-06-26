@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T15:03:14 IST" name="Suite" finished-at="2024-06-26T15:04:00 IST" duration-ms="45176">
+    <groups>
+    </groups>
+    <test started-at="2024-06-26T15:03:15 IST" name="Chrome Test - Google2" finished-at="2024-06-26T15:03:58 IST" duration-ms="43432">
+      <class name="Practice.Goggle2">
+        <test-method signature="opengoogles(java.lang.String)[pri:0, instance:Practice.Goggle2@292b08d6]" started-at="2024-06-26T15:03:15 IST" name="opengoogles" finished-at="2024-06-26T15:03:58 IST" duration-ms="43344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengoogles -->
+      </class> <!-- Practice.Goggle2 -->
+    </test> <!-- Chrome Test - Google2 -->
+    <test started-at="2024-06-26T15:03:15 IST" name="Firefox Test - Google2" finished-at="2024-06-26T15:03:59 IST" duration-ms="44387">
+      <class name="Practice.Goggle2">
+        <test-method signature="opengoogles(java.lang.String)[pri:0, instance:Practice.Goggle2@34e9fd99]" started-at="2024-06-26T15:03:15 IST" name="opengoogles" finished-at="2024-06-26T15:03:59 IST" duration-ms="44308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengoogles -->
+      </class> <!-- Practice.Goggle2 -->
+    </test> <!-- Firefox Test - Google2 -->
+    <test started-at="2024-06-26T15:03:14 IST" name="Chrome Test - GoogleTc" finished-at="2024-06-26T15:03:59 IST" duration-ms="44481">
+      <class name="Practice.GoogleTc">
+        <test-method signature="opengoogle(java.lang.String)[pri:0, instance:Practice.GoogleTc@59662a0b]" started-at="2024-06-26T15:03:15 IST" name="opengoogle" finished-at="2024-06-26T15:03:59 IST" duration-ms="44386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengoogle -->
+      </class> <!-- Practice.GoogleTc -->
+    </test> <!-- Chrome Test - GoogleTc -->
+    <test started-at="2024-06-26T15:03:15 IST" name="Firefox Test - GoogleTc" finished-at="2024-06-26T15:04:00 IST" duration-ms="45170">
+      <class name="Practice.GoogleTc">
+        <test-method signature="opengoogle(java.lang.String)[pri:0, instance:Practice.GoogleTc@6c6cb480]" started-at="2024-06-26T15:03:15 IST" name="opengoogle" finished-at="2024-06-26T15:04:00 IST" duration-ms="45081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opengoogle -->
+      </class> <!-- Practice.GoogleTc -->
+    </test> <!-- Firefox Test - GoogleTc -->
+  </suite> <!-- Suite -->
+</testng-results>

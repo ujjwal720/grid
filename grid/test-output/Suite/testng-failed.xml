@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="tests" name="Chrome Test - GoogleTc(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Practice.GoogleTc">
+        <methods>
+          <include name="opengoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.GoogleTc -->
+    </classes>
+  </test> <!-- Chrome Test - GoogleTc(failed) -->
+  <test thread-count="4" parallel="tests" name="Firefox Test - Google2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Practice.Goggle2">
+        <methods>
+          <include name="opengoogles" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.Goggle2 -->
+    </classes>
+  </test> <!-- Firefox Test - Google2(failed) -->
+  <test thread-count="4" parallel="tests" name="Chrome Test - Google2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Practice.Goggle2">
+        <methods>
+          <include name="opengoogles" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.Goggle2 -->
+    </classes>
+  </test> <!-- Chrome Test - Google2(failed) -->
+  <test thread-count="4" parallel="tests" name="Firefox Test - GoogleTc(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Practice.GoogleTc">
+        <methods>
+          <include name="opengoogle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Practice.GoogleTc -->
+    </classes>
+  </test> <!-- Firefox Test - GoogleTc(failed) -->
+</suite> <!-- Failed suite [Suite] -->
